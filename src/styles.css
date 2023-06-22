@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+.action-button{
+    width: 9rem;
+    border-radius: 5px;
+    padding: 0.6rem;
+    border: 1px rgba(73, 141, 64, 1) solid;
+    background-color:white;
+    font-size: 1rem;
+}
+
+.button-green{
+    background-color: rgba(73, 141, 64, 1);
+    color: white;
+}
+
+.button-white{
+    background-color: white;
+    color: rgba(73, 141, 64, 1);
+}

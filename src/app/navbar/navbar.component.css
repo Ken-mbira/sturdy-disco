@@ -1,0 +1,22 @@
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    width: 35rem;
+}
+
+.nav-links>a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    align-items: center;
+}
+.nav-cta{
+    display: flex;
+    justify-content: space-between;
+    width: 19rem;
+}

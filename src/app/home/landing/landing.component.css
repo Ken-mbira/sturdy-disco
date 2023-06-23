@@ -1,0 +1,19 @@
+.main>div{
+    width: 50%;
+}
+.actions{
+    display:flex;
+    justify-content: space-between;
+    width: 23rem;
+}
+.action-button{
+    padding: 0.7rem;
+}
+.button-green{
+    width: 13rem;
+}
+
+.large-banner-text{
+    font-size: 3rem;
+    font-weight: 800;
+}

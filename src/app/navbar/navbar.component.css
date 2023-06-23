@@ -1,7 +1,7 @@
 .nav-links{
     display: flex;
     justify-content: space-evenly;
-    width: 35rem;
+    width: 30rem;
 }
 
 .nav-links>a{

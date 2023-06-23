@@ -1,3 +1,6 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
 .action-button{
     width: 9rem;
     border-radius: 5px;

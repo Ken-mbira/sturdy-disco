@@ -1,19 +1,42 @@
+.main{
+    display: flex;
+}
+
 .main>div{
     width: 50%;
 }
+
 .actions{
     display:flex;
     justify-content: space-between;
     width: 23rem;
+    margin-bottom: 4rem;
 }
+
 .action-button{
     padding: 0.7rem;
 }
+
 .button-green{
     width: 13rem;
 }
 
 .large-banner-text{
-    font-size: 3rem;
-    font-weight: 800;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.small-text{
+    font-size: 1.1rem;
+    word-spacing: 0.3rem;
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+}
+
+.banner-image{
+    background-image: url(../../../assets/images/landing_banner.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }

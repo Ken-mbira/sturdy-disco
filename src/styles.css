@@ -1,5 +1,6 @@
 *{
     font-family: 'Ubuntu', sans-serif;
+    font-weight: 300
 }
 .action-button{
     width: 9rem;
@@ -16,6 +17,6 @@
 }
 
 .button-white{
-    background-color: white;
+    background-color: transparent;
     color: rgba(73, 141, 64, 1);
 }

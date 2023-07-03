@@ -1,6 +1,11 @@
 .section{
-    margin: 0 12rem;
+    margin: 0 5rem;
 }
+
 .nav-section{
-    margin: 0 12rem 0 10.4rem !important;
+    margin-bottom: 3rem;
+}
+
+.landing{
+    background-color: #FEFAF2;
 }

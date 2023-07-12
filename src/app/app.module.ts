@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { LandingComponent } from './home/landing/landing.component';
 import { TechListComponent } from './home/tech-list/tech-list.component';
+import { InsightsComponent } from './home/insights/insights.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { TechListComponent } from './home/tech-list/tech-list.component';
     NavbarComponent,
     HomeComponent,
     LandingComponent,
-    TechListComponent
+    TechListComponent,
+    InsightsComponent
   ],
   imports: [
     BrowserModule,

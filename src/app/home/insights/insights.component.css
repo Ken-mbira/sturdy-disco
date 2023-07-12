@@ -1,0 +1,44 @@
+.main{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.text-content{
+    width: 45%
+}
+
+.image-content{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end; 
+}
+
+
+.text-content h5 {
+    font-weight: 700;
+    color: #498D40;
+    font-size: 1rem;
+}
+
+.text-content h3{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.text-content button{
+    width: 9rem;
+    border-radius: 5px;
+    padding: 0.6rem;
+    margin-top: 1.5rem;
+    background-color:#253750;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    border: none;
+}
+
+.image-content img{
+    max-width: 100%;
+    height: auto;
+}

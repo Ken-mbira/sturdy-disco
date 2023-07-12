@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { LandingComponent } from './home/landing/landing.component';
 import { TechListComponent } from './home/tech-list/tech-list.component';
 import { InsightsComponent } from './home/insights/insights.component';
+import { PredictiveAnalysisComponent } from './home/predictive-analysis/predictive-analysis.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { InsightsComponent } from './home/insights/insights.component';
     HomeComponent,
     LandingComponent,
     TechListComponent,
-    InsightsComponent
+    InsightsComponent,
+    PredictiveAnalysisComponent
   ],
   imports: [
     BrowserModule,

@@ -9,6 +9,7 @@ import { LandingComponent } from './home/landing/landing.component';
 import { TechListComponent } from './home/tech-list/tech-list.component';
 import { InsightsComponent } from './home/insights/insights.component';
 import { PredictiveAnalysisComponent } from './home/predictive-analysis/predictive-analysis.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PredictiveAnalysisComponent } from './home/predictive-analysis/predicti
     LandingComponent,
     TechListComponent,
     InsightsComponent,
-    PredictiveAnalysisComponent
+    PredictiveAnalysisComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

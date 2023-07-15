@@ -10,6 +10,8 @@ import { TechListComponent } from './home/tech-list/tech-list.component';
 import { InsightsComponent } from './home/insights/insights.component';
 import { PredictiveAnalysisComponent } from './home/predictive-analysis/predictive-analysis.component';
 import { FooterComponent } from './footer/footer.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

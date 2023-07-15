@@ -20,3 +20,21 @@
     justify-content: space-between;
     width: 19rem;
 }
+
+.hamburger-menu{
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 1150px){
+    .nav-links,
+    .nav-cta{
+        display: none;
+    }
+    .main>img{
+        width: 250px;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+}

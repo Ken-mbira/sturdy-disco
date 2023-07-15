@@ -4,8 +4,18 @@
 
 .nav-section{
     margin-bottom: 3rem;
+    margin-left: 6.2rem !important;
 }
 
 .landing{
     background-color: #FEFAF2;
+}
+
+@media (max-width: 1600px){
+    .section{
+        margin: 0 2rem;
+    }
+    .nav-section{
+        margin-left: .25rem !important;
+    }
 }

@@ -26,3 +26,5 @@ p{
     background-color: transparent;
     color: rgba(73, 141, 64, 1);
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

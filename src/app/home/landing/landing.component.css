@@ -40,3 +40,40 @@
     background-size: contain;
     background-position: center;
 }
+
+@media (max-width: 1280px){
+    .main{
+        display:block;
+    }
+    .main > div{
+        width: 100%;
+    }
+    .banner-image{
+        height: 400px;
+    }
+    .large-banner-text{
+        font-size: 3rem;
+    }
+    .small-text{
+        margin-bottom: 1rem;
+    }
+    .small-text br{
+        display: none;
+    }
+    .actions{
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 800px){
+    .actions{
+        flex-direction: column;
+        width: 100%
+    }
+    .action-button{
+        width: 100%;
+    }
+    .action-button.button-white{
+        margin-top: 1rem;
+    }
+}

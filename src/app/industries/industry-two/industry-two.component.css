@@ -37,3 +37,16 @@
 br{
     display: none;
 }
+
+@media (max-width: 1280px){
+    .main{
+        display: block;
+    }
+    .part-1{
+        background-color: transparent;
+    }
+    .part-1 > img{
+        width: 100%;
+        height: auto;
+    }
+}

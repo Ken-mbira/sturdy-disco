@@ -25,6 +25,7 @@
     font-size: 4rem;
     font-weight: 700;
     margin-bottom: 2rem;
+    line-height: 4rem;
 }
 
 .small-text{
@@ -75,5 +76,8 @@
     }
     .action-button.button-white{
         margin-top: 1rem;
+    }
+    .large-banner-text{
+        line-height: 3rem;
     }
 }

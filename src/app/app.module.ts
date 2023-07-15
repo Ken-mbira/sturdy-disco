@@ -12,6 +12,8 @@ import { PredictiveAnalysisComponent } from './home/predictive-analysis/predicti
 import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material/icon';
+import { QuoteComponent } from './quote/quote.component';
+import { QuoteFormComponent } from './quote/quote-form/quote-form.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import {MatIconModule} from '@angular/material/icon';
     TechListComponent,
     InsightsComponent,
     PredictiveAnalysisComponent,
-    FooterComponent
+    FooterComponent,
+    QuoteComponent,
+    QuoteFormComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,32 @@
+.main{
+    display:flex;
+}
+
+.part-1{
+    width: 40%;
+}
+
+.part-2{
+    width: 60%;
+}
+
+.contact-how > h2{
+    font-size: 3rem; 
+    font-weight: 600
+}
+
+.contact-options{
+    padding-left: 1rem;
+}
+
+.contact-options li{
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.contact-how > p{
+    line-height: 1.7rem;
+}
+
+.tech-list > img{
+    margin: 1rem;
+}

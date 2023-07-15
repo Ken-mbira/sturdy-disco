@@ -1,0 +1,89 @@
+.main{
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+}
+.input-field{
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    padding: 1rem;
+}
+
+h4{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: rgba(37, 55, 80, 1);
+    margin: 1rem 0;
+}
+
+.input-box{
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.select-box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.select-box > .input-field{
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    padding: 1rem;
+    width: 80%;
+}
+.select-box > select{
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    padding: 1rem;
+    width: 20%;
+    margin-right: 0.5rem;
+    background-color: transparent;
+}
+
+.input-box label{
+    color: #5F6062;
+    font-weight: 500;
+}
+
+.input-box > label{
+    margin-bottom: 0.3rem;
+}
+
+.checkboxes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.input-box input{
+    margin: 0.5rem;
+}
+
+.form-buttons > button{
+    padding: 1rem 1.8rem;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.cancel-button{
+    background-color: rgba(127, 128, 129, 1);
+    margin-right: 1rem;
+    font-weight: 700;
+}
+
+.get-started-button{
+    background-color: rgba(37, 55, 80, 1);
+    font-weight: 700;
+}
+
+.form-buttons{
+    margin-bottom: 2rem;
+}
+
+.actions{
+    display: flex;
+    justify-content: right;
+}

@@ -16,6 +16,8 @@ import { QuoteComponent } from './quote/quote.component';
 import { QuoteFormComponent } from './quote/quote-form/quote-form.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ContactFormComponent } from './contact-us/contact-form/contact-form.component';
+import { IndustriesComponent } from './industries/industries.component';
+import { IndustryLandingComponent } from './industries/industry-landing/industry-landing.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { ContactFormComponent } from './contact-us/contact-form/contact-form.com
     QuoteComponent,
     QuoteFormComponent,
     ContactUsComponent,
-    ContactFormComponent
+    ContactFormComponent,
+    IndustriesComponent,
+    IndustryLandingComponent
   ],
   imports: [
     BrowserModule,

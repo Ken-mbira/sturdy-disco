@@ -81,3 +81,50 @@
     font-weight: 600;
     margin-bottom: .5rem
 }
+
+.links{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 4rem;
+    margin: 2rem 0;
+}
+
+.grid-2{
+    grid-column: span 2;    
+}
+.grid-4 > div {
+    display: flex;
+    flex-direction: column;
+}
+.grid-4 > div > a{
+    text-decoration: none;
+    color: black;
+    margin: 0.5rem 0;
+}
+
+.grid-4 > h3{
+    font-weight: 600;
+}
+
+.grid-4.novostripe-logo{
+    display:flex;
+    align-items: center;
+}
+
+.policies > .link-list > a{
+    text-decoration: none;
+    color: black;
+    margin-right: 1.5rem;
+}
+
+.policies > .link-list{
+    margin-bottom: 1rem;
+}
+
+.grid-2.icons{
+    margin-left: 30rem;
+}
+
+.grid-2.icons > div > img{
+    margin: 0.5rem;
+}

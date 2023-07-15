@@ -133,6 +133,12 @@
     .subscribe-cta > input{
         width: 20rem;
     }
+    .grid-2{
+        grid-column: span 4;
+    }
+    .grid-2.icons{
+        margin: 0;
+    }
 }
 
 @media (max-width: 1220px){
@@ -164,16 +170,67 @@
     .circle-1{
         display: none;
     }
+    .links{
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 2rem;
+        text-align: center;
+    }
+    .grid-2{
+        grid-column: span 2;
+    }
+    .grid-2.icons{
+        margin-top: 2rem;
+    }
 }
 
 @media (max-width: 680px){
     .subscribe-cta > input{
-        width: 10rem;
+        width: max-content;
     }
     .subscribe-cta > button{
-        width: 7rem;
+        width: fit-content;
     }
     .subscribe-background{
-        padding: 1rem 1.5rem;
+        padding: 1rem;
+    }
+    .vertical-line{
+        height: 50px;
+        width: 4px;
+        margin-right: 0.2rem;
+    }
+    .join-loop-1 h3{
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: .2rem
+    }
+    .join-loop-1  p{
+        font-size: .8rem;
+    }
+    .links{
+        display: block;
+        text-align: left;
+    }
+    .grid-4.novostripe-logo{
+        display: flex;
+        justify-content: center;
+    }
+    .grid-2.policies{
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 460px){
+    .join-loop{
+        display: block;
+        padding: .8rem;
+    }
+    .subscribe-cta > input{
+        width: 12rem;
+    }
+    .subscribe-cta > button{
+        width: fit-content;
+    }
+    .subscribe-background{
+        padding: 1rem;
     }
 }

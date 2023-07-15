@@ -18,6 +18,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ContactFormComponent } from './contact-us/contact-form/contact-form.component';
 import { IndustriesComponent } from './industries/industries.component';
 import { IndustryLandingComponent } from './industries/industry-landing/industry-landing.component';
+import { IndustryOneComponent } from './industries/industry-one/industry-one.component';
+import { IndustryTwoComponent } from './industries/industry-two/industry-two.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { IndustryLandingComponent } from './industries/industry-landing/industry
     ContactUsComponent,
     ContactFormComponent,
     IndustriesComponent,
-    IndustryLandingComponent
+    IndustryLandingComponent,
+    IndustryOneComponent,
+    IndustryTwoComponent
   ],
   imports: [
     BrowserModule,

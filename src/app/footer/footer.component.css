@@ -128,3 +128,52 @@
 .grid-2.icons > div > img{
     margin: 0.5rem;
 }
+
+@media (max-width: 1390px){
+    .subscribe-cta > input{
+        width: 20rem;
+    }
+}
+
+@media (max-width: 1220px){
+    .join-loop{
+        padding-left: 10rem;
+    }
+    .circle-2{
+        left: 300px;
+    }
+}
+
+@media (max-width: 1220px){
+    .join-loop{
+        padding-left: 5rem;
+    }
+    .circle-1{
+        left: -90px;
+    }
+}
+
+@media (max-width: 980px){
+    .join-loop{
+        display: block;
+        padding: 1rem 2rem 1rem 2rem;
+    }
+    .join-loop-1{
+        margin-bottom: 1rem;
+    }
+    .circle-1{
+        display: none;
+    }
+}
+
+@media (max-width: 680px){
+    .subscribe-cta > input{
+        width: 10rem;
+    }
+    .subscribe-cta > button{
+        width: 7rem;
+    }
+    .subscribe-background{
+        padding: 1rem 1.5rem;
+    }
+}

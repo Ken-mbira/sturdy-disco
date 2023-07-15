@@ -19,3 +19,9 @@
         margin-left: .25rem !important;
     }
 }
+
+@media (max-width: 500px){
+    .section{
+        margin: 0 1rem;
+    }
+}

@@ -31,24 +31,15 @@
     margin: 1rem;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 950px){
     .main{
         display: block;
     }
     .part-1{
         width: 100%;
     }
+
     .part-2{
         width: 100%;
-    }
-    .contact-how > h2{
-        font-size: 2rem;
-        font-weight: 600
-    }
-    .contact-options li{
-        margin: 0.5rem 0 0.5rem 0;
-    }
-    .tech-list > img{
-        margin: 0.5rem;
     }
 }

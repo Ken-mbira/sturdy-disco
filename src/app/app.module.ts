@@ -14,6 +14,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material/icon';
 import { QuoteComponent } from './quote/quote.component';
 import { QuoteFormComponent } from './quote/quote-form/quote-form.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { ContactFormComponent } from './contact-us/contact-form/contact-form.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { QuoteFormComponent } from './quote/quote-form/quote-form.component';
     PredictiveAnalysisComponent,
     FooterComponent,
     QuoteComponent,
-    QuoteFormComponent
+    QuoteFormComponent,
+    ContactUsComponent,
+    ContactFormComponent
   ],
   imports: [
     BrowserModule,

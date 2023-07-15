@@ -4,6 +4,34 @@
     padding: 0 15rem 0 15rem;
 }
 
+.main{
+    margin-top: 2rem;
+}
+
 .main hr{
     margin-top: 2rem;
+    opacity: .2;
+}
+
+@media (max-width: 1600px){
+    .image-list{
+        padding: 0 10rem 0 10rem;
+    }
+}
+
+@media (max-width: 1400px){
+    .image-list{
+        padding: 0 5rem 0 5rem;
+        flex-wrap: wrap;
+    }
+    .image-list > img{
+        margin: 0 1rem 1rem 1rem;
+    }
+}
+
+@media (max-width: 700px){
+    .image-list{
+        padding: 0 2rem 0 2rem;
+        flex-wrap: wrap;
+    }
 }

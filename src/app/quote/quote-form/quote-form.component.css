@@ -87,3 +87,18 @@ h4{
     display: flex;
     justify-content: right;
 }
+
+@media (max-width: 1000px){
+    .select-box > .input-field{
+        width: 60%;
+    }
+    .select-box > select{
+        width: 40%;
+    }
+}
+
+@media (max-width: 500px){
+    .checkboxes{
+        grid-template-columns: 1fr;
+    }
+}

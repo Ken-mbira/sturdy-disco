@@ -217,6 +217,12 @@
     .grid-2.policies{
         margin-top: 2rem;
     }
+    .grid-4{
+        margin-bottom: 1rem;
+    }
+    .grid-4 > h3{
+        margin-bottom: 0;
+    }
 }
 
 @media (max-width: 460px){

@@ -42,4 +42,9 @@
     .part-2{
         width: 100%;
     }
+
+    .contact-how > h2{
+        font-size: 2rem;
+        font-weight: 600
+    }
 }

@@ -42,7 +42,8 @@
 
 @media (max-width: 1000px) {
     .main{
-        display: block
+        display: block;
+        padding: 1rem 0;
     }
     .text-content{
         width: inherit;

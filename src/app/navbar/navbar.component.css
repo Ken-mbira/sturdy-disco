@@ -24,7 +24,10 @@
 .hamburger-menu{
     display: none;
     cursor: pointer;
+    align-items: center;
+    height: fit-content;
 }
+
 
 @media (max-width: 1150px){
     .nav-links,
@@ -35,6 +38,31 @@
         width: 250px;
     }
     .hamburger-menu{
-        display: block;
+        display: flex;
+    }
+
+    .action-button{
+        border-radius: 20px;
+        margin-right: 1rem;
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+        width: auto;
+    }
+}
+
+@media (max-width: 800px){
+    .main>img{
+        width: 200px;
+        margin-left: 0.65rem;
+    }
+    .main{
+        margin: 0.5rem 0;
+    }
+}
+
+@media (max-width: 500px){
+    .main>img{
+        width: 150px;
+        margin-left: 0rem;
     }
 }

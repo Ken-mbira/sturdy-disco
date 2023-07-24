@@ -1,5 +1,6 @@
 .main{
     display: flex;
+    padding-top: 5rem;
 }
 
 .main>div{
@@ -42,9 +43,16 @@
     background-position: center;
 }
 
+@media (max-width: 1600px){
+    .small-text br{
+        display: none;
+    }
+}
+
 @media (max-width: 1280px){
     .main{
         display:block;
+        padding-top: 1rem;
     }
     .main > div{
         width: 100%;
@@ -57,9 +65,6 @@
     }
     .small-text{
         margin-bottom: 1rem;
-    }
-    .small-text br{
-        display: none;
     }
     .actions{
         margin-bottom: 1.5rem;

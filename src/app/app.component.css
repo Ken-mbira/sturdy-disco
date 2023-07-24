@@ -10,7 +10,7 @@
     background-color: #FEFAF2;
 }
 
-@media (max-width: 1600px){
+@media (max-width: 1400px){
     .section{
         margin: 0 2rem;
     }

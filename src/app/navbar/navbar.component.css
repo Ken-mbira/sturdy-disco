@@ -4,7 +4,7 @@
     width: 30rem;
 }
 
-.nav-links>a{
+.nav-links a{
     text-decoration: none;
     color: black;
 }
@@ -28,6 +28,28 @@
     height: fit-content;
 }
 
+.nav-modal{
+    display: none;
+    position: absolute;
+}
+
+.nav-modal > div{
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 0px 30px 0px rgba(43, 42, 56, 0.15);
+    margin-top: 0.5rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.nav-link:hover{
+    color: #498D40 !important;
+}
+
+.nav-modal > div > a:not(:last-child) {
+    margin-bottom: 0.8rem;
+}
 
 @media (max-width: 1150px){
     .nav-links,

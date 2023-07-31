@@ -1,10 +1,45 @@
 <nav class="main">
     <img routerLink="" src="../../assets/images/novostripe_logo.svg">
     <div class="nav-links">
-        <a href=".">Solutions</a>
-        <a href="industries">Industries</a>
-        <a href=".">Insights</a>
-        <a href=".">Company</a>
+        <div [navbarHover]="'nav-modal-1'" class="nav-item">
+            <div>
+                <a href="." class="nav-link">Solutions</a>
+                <div id="nav-modal-1" class="nav-modal">
+                    <div>
+                        <a href=".">Data Engineering</a>
+                        <a href=".">Artificial Intelligence</a>
+                        <a href=".">Business Intelligence</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div [navbarHover]="'nav-modal-2'" class="nav-item">
+            <div>
+                <a href="industries" class="nav-link">Industries</a>
+                <div id="nav-modal-2" class="nav-modal">
+                    <div>
+                        <a href=".">Healthcare</a>
+                        <a href=".">Financial Industry</a>
+                        <a href=".">Manufacturing</a>
+                        <a href=".">Information Technology</a>
+                        <a href=".">Retail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="." class="nav-link">Insights</a>
+        <div [navbarHover]="'nav-modal-3'" class="nav-item">
+            <div>
+                <a href="." class="nav-link">Company</a>
+                <div id="nav-modal-3" class="nav-modal">
+                    <div>
+                        <a href=".">Why Novostripe</a>
+                        <a href=".">Our Culture</a>
+                        <a href=".">Our Impact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="nav-cta">
         <button routerLink="quote" class="action-button button-green">Get your Quote</button>

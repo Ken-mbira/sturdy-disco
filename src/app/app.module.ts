@@ -20,6 +20,7 @@ import { IndustriesComponent } from './industries/industries.component';
 import { IndustryLandingComponent } from './industries/industry-landing/industry-landing.component';
 import { IndustryOneComponent } from './industries/industry-one/industry-one.component';
 import { IndustryTwoComponent } from './industries/industry-two/industry-two.component';
+import { NavbarHoverDirective } from './directives/navbar-hover.directive';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { IndustryTwoComponent } from './industries/industry-two/industry-two.com
     IndustriesComponent,
     IndustryLandingComponent,
     IndustryOneComponent,
-    IndustryTwoComponent
+    IndustryTwoComponent,
+    NavbarHoverDirective
   ],
   imports: [
     BrowserModule,

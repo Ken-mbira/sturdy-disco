@@ -21,6 +21,8 @@ import { IndustryLandingComponent } from './industries/industry-landing/industry
 import { IndustryOneComponent } from './industries/industry-one/industry-one.component';
 import { IndustryTwoComponent } from './industries/industry-two/industry-two.component';
 import { NavbarHoverDirective } from './directives/navbar-hover.directive';
+import { SidenavComponent } from './navbar/sidenav/sidenav.component';
+import { MatButtonModule } from '@angular/material/button'; 
 
 @NgModule({
   declarations: [
@@ -40,13 +42,15 @@ import { NavbarHoverDirective } from './directives/navbar-hover.directive';
     IndustryLandingComponent,
     IndustryOneComponent,
     IndustryTwoComponent,
-    NavbarHoverDirective
+    NavbarHoverDirective,
+    SidenavComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatIconModule
+    MatIconModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

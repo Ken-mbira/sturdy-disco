@@ -47,6 +47,10 @@
     </div>
     <div class="hamburger-menu">
         <button routerLink="contact-us" class="action-button button-green">Contact us</button>
-        <mat-icon>menu</mat-icon>
+        <button (click)="sidenavOpen = !sidenavOpen" mat-icon-button>
+            <mat-icon>
+                {{ sidenavOpen ? 'close' : 'menu' }}
+            </mat-icon>
+        </button>
     </div>
 </nav>
